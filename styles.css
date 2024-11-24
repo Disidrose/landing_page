@@ -63,7 +63,30 @@ li.logo {
 
 .cards
 {
-    padding: 0 200px;
+    /** margin: 50px 200px; **/
+    padding: 50px 400px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cards p {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+}
+
+#first-card, #second-card, #third-card, #forth-card {
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
 }
