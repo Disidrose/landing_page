@@ -110,3 +110,35 @@ li.logo {
     text-align: right;
     font-size: 20px;
 }
+
+.sign-up {
+    margin: 100px 400px;
+    padding: 50px;
+    background-color: #2392e7;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column; /* Stack the text paragraphs vertically */
+    position: relative; /* Needed to position the .sign-up-button */
+}
+
+.sign-up-button {
+    padding: 0 0 0 250px;
+    position: absolute; /* Take the .sign-up-button out of the normal flow */
+    right: 80px; /* Align to the right of the parent container */
+    bottom: 50px; /* Add some space from the bottom */
+}
+
+.block-four p {
+    color: white;
+}
+
+.box { 
+    border: 2px solid white; 
+    padding: 15px 30px;
+    border-radius: 15px;
+} 
+
+.sign-up p {
+    display: block;
+    margin-bottom: 20px; /* Add space between the paragraphs */
+}
