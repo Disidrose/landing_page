@@ -63,7 +63,82 @@ li.logo {
 
 .cards
 {
-    padding: 0 200px;
+    /** margin: 50px 200px; **/
+    padding: 50px 400px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cards p {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+}
+
+#first-card, #second-card, #third-card, #forth-card {
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.block-three {
+    background-color: rgb(224, 224, 224);
+    padding: 100px 500px;
+}
+
+#inspiring-quote {
+    font-size: 25px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+}
+
+#quote-author {
+    font-weight: bold;
+    text-align: right;
+    font-size: 20px;
+}
+
+.sign-up {
+    margin: 100px 400px;
+    padding: 50px;
+    background-color: #2392e7;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column; /* Stack the text paragraphs vertically */
+    position: relative; /* Needed to position the .sign-up-button */
+}
+
+.sign-up-button {
+    padding: 0 0 0 250px;
+    position: absolute; /* Take the .sign-up-button out of the normal flow */
+    right: 80px; /* Align to the right of the parent container */
+    bottom: 50px; /* Add some space from the bottom */
+}
+
+.block-four p {
+    color: white;
+}
+
+.box { 
+    border: 2px solid white; 
+    padding: 15px 30px;
+    border-radius: 15px;
+} 
+
+.sign-up p {
+    display: block;
+    margin-bottom: 20px; /* Add space between the paragraphs */
 }
